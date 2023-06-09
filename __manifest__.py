@@ -10,7 +10,7 @@
         Long description of module's purpose
     """,
 
-    'author': "My Company",
+    'author': "joshjohann",
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -24,9 +24,10 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'security/groups.xml',
+        'security/ir.model.access.csv',
+        'views/library_book.xml',
+        'views/library_book_categ.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
